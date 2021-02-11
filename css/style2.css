@@ -1,40 +1,62 @@
-.title {
-    background-color: #294969;
-    color:  red;
-    padding: 10px 15px;
-    border: 12px solid #ffa949;
-    border-bottom-color: #cf7919;
+* {
+  box-sizing: border-box
+}    
+
+body {display: block;
+margin: 8px;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  background-color: #294969;
+  color:  ghostwhite;}
+
+div {
+  border-style: ridge inset;
+  padding: 5px;
+  border-color:#cf1919;
+  margin: 30px 0 10px;
+ font-size: x-large;
+  color:tomato;
+  text-align: center;
+  
+}
+
+
+  section {
+    min-height: 100vh;
+    padding: 1rem;
+    border-bottom: 2px dotted #666;
+    background-color: azure;
     text-align: center;
   }
 
-   
-body {
-  margin: 0;
-  padding: 0;
+p {
+  color:coral;
+  text-align: center;
+
 }
 
-body {
-  background: rgb(0, 225, 255);
-}
 
-.pupperbro {
+
+
+.pupperimg {
+  position: relative;
+  z-index: 2;
   width: 100%;
-  height: auto;
-  max-width: 600px; 
-}
+ }
+
+
 /* Tablet */
 
 
   @media screen and (min-width: 600px) {
     body {
-        background: rgb(229, 255, 0);
+        display: block;
+        background: rgb(0, 247, 255);
     }
-  .pupperbro {
-      border: solid 3px orangered;
-      border-radius: 50px;
-      width: 1400px;
-      opacity: 0.5;
-  }
+
 }
 
   
@@ -42,12 +64,7 @@ body {
 
 @media screen and (min-width: 1000px) {
     body {
-        background: rgb(81, 0, 128);
+        display: block;
+        background: rgb(0, 247, 255);
     }  
-    .pupperbro {
-      border: solid 5px rgb(9, 0, 128);
-      border-radius: 25%;
-      width: 1400px;
-      opacity: 0.5;
-  }
 }
