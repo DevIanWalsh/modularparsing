@@ -17,7 +17,7 @@ body {
   background: rgb(0, 225, 255);
 }
 
-.puppy {
+.pupperbro {
   width: 100%;
   height: auto;
   max-width: 600px; 
@@ -29,7 +29,7 @@ body {
     body {
         background: rgb(229, 255, 0);
     }
-  .puppy {
+  .pupperbro {
       border: solid 3px orangered;
       border-radius: 50px;
       width: 1400px;
@@ -44,7 +44,7 @@ body {
     body {
         background: rgb(81, 0, 128);
     }  
-    .puppy {
+    .pupperbro {
       border: solid 5px rgb(9, 0, 128);
       border-radius: 25%;
       width: 1400px;
