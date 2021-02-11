@@ -9,8 +9,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  border-style: ridge inset;
   padding: 10px;
+  border-style: ridge;
   border-color:#cf1919;
  font-size: x-large;
   color:tomato;
@@ -64,8 +64,12 @@ a {
   @media screen and (min-width: 600px) {
     body {
         display: inline-block;
-    }
 
+    }
+ .alphabetsoup {
+     max-width: 600px;
+
+ }
 }
 
   
@@ -76,4 +80,7 @@ a {
         display: inline-block;
  
     }  
+   .alphabetsoup {
+     max-width: 100%;
+   }
 }
