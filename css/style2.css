@@ -4,5 +4,50 @@
     padding: 10px 15px;
     border: 12px solid #ffa949;
     border-bottom-color: #cf7919;
+    text-align: center;
   }
+
+   
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(0, 225, 255);
+}
+
+.puppy {
+  width: 100%;
+  height: auto;
+  max-width: 600px; 
+}
+/* Tablet */
+
+
+  @media screen and (min-width: 600px) {
+    body {
+        background: rgb(229, 255, 0);
+    }
+  .puppy {
+      border: solid 3px orangered;
+      border-radius: 50px;
+      width: 1400px;
+      opacity: 0.5;
+  }
+}
+
   
+/* Desktop */
+
+@media screen and (min-width: 1000px) {
+    body {
+        background: rgb(81, 0, 128);
+    }  
+    .puppy {
+      border: solid 5px rgb(9, 0, 128);
+      border-radius: 25%;
+      width: 1400px;
+      opacity: 0.5;
+  }
+}
