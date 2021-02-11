@@ -9,18 +9,17 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
-  border-style: ridge;
-  border-color:#cf1919;
- font-size: x-large;
-  color:tomato;
+  border-bottom-style:groove;
+  border-color:#000000;
+  font-size: x-large;
+  color:rgb(117, 18, 84);
   text-align: center;
  }
 
 
 
  p {
-  color:rgb(63, 63, 44);
+  color:rgb(61, 44, 44);
   text-align: center;
 
 }
@@ -36,7 +35,7 @@ header {
 
  h1 {
   position: relative;
-  margin-top: 80px;
+  margin-top: 50px;
   text-align: center;
  
   }
@@ -61,7 +60,7 @@ a {
 /* Tablet */
 
 
-  @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     body {
         display: inline-block;
 
@@ -81,6 +80,7 @@ a {
  
     }  
    .alphabetsoup {
-     max-width: 100%;
+     max-width: 60%;
+     padding: 5px;
    }
 }
